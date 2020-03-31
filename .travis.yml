@@ -6,4 +6,5 @@ xcode_scheme: HowTo
 xcode_destination: platform=iOS Simulator,OS=13.2,name=iPhone X
 
 before_install:
+- cd ..
 - pod install
