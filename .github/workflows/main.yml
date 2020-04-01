@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: Dependecies
         run:
+          cd HowTo
           pod install
       - name: Build and test
         run: |
