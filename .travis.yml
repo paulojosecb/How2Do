@@ -1,9 +1,0 @@
-os: osx
-osx_image: xcode 11.3.1
-language: swift
-xcode_workspace: HowTo.xcworkspace
-xcode_scheme: HowTo
-xcode_destination: platform=iOS Simulator,OS=13.3,name=iPhone X
-
-before_install:
-- pod install
