@@ -16,6 +16,10 @@
 		2B76E68E243400460081FD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B76E68C243400460081FD2E /* LaunchScreen.storyboard */; };
 		2B76E699243400460081FD2E /* HowToTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E698243400460081FD2E /* HowToTests.swift */; };
 		2B76E6A4243400460081FD2E /* HowToUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E6A3243400460081FD2E /* HowToUITests.swift */; };
+		2B76E6B324342A4B0081FD2E /* TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E6B224342A4B0081FD2E /* TutorialTests.swift */; };
+		2B76E6B624342C3F0081FD2E /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E6B524342C3F0081FD2E /* Tutorial.swift */; };
+		2B76E6B824342C7C0081FD2E /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E6B724342C7B0081FD2E /* Ingredient.swift */; };
+		2B76E6BA243432150081FD2E /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E6B9243432150081FD2E /* Step.swift */; };
 		71D1A2D5AB71F633B682FF41 /* Pods_HowToTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93368576F3B34BD055D28688 /* Pods_HowToTests.framework */; };
 		A133F156E351684A0D9F14AC /* Pods_HowTo_HowToUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B503E07EF3DD411184F298D7 /* Pods_HowTo_HowToUITests.framework */; };
 		DC15AA4D3C9A13870913808A /* Pods_HowTo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD44F9910C6795C03984146C /* Pods_HowTo.framework */; };
@@ -54,6 +58,10 @@
 		2B76E69F243400460081FD2E /* HowToUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B76E6A3243400460081FD2E /* HowToUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToUITests.swift; sourceTree = "<group>"; };
 		2B76E6A5243400460081FD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B76E6B224342A4B0081FD2E /* TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTests.swift; sourceTree = "<group>"; };
+		2B76E6B524342C3F0081FD2E /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		2B76E6B724342C7B0081FD2E /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		2B76E6B9243432150081FD2E /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
 		3F78CEDA314DFA84A05A2C03 /* Pods-HowTo-HowToUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowTo-HowToUITests.release.xcconfig"; path = "Target Support Files/Pods-HowTo-HowToUITests/Pods-HowTo-HowToUITests.release.xcconfig"; sourceTree = "<group>"; };
 		73D14462C8F16D9C8A753E3B /* Pods-HowTo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowTo.release.xcconfig"; path = "Target Support Files/Pods-HowTo/Pods-HowTo.release.xcconfig"; sourceTree = "<group>"; };
 		93368576F3B34BD055D28688 /* Pods_HowToTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowToTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +126,7 @@
 		2B76E67D243400440081FD2E /* HowTo */ = {
 			isa = PBXGroup;
 			children = (
+				2B76E6B424342C2E0081FD2E /* Model */,
 				2B76E67E243400440081FD2E /* AppDelegate.swift */,
 				2B76E680243400440081FD2E /* SceneDelegate.swift */,
 				2B76E682243400440081FD2E /* ViewController.swift */,
@@ -133,6 +142,7 @@
 		2B76E697243400460081FD2E /* HowToTests */ = {
 			isa = PBXGroup;
 			children = (
+				2B76E6B124342A340081FD2E /* Model */,
 				2B76E698243400460081FD2E /* HowToTests.swift */,
 				2B76E69A243400460081FD2E /* Info.plist */,
 			);
@@ -146,6 +156,24 @@
 				2B76E6A5243400460081FD2E /* Info.plist */,
 			);
 			path = HowToUITests;
+			sourceTree = "<group>";
+		};
+		2B76E6B124342A340081FD2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B76E6B224342A4B0081FD2E /* TutorialTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B76E6B424342C2E0081FD2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B76E6B524342C3F0081FD2E /* Tutorial.swift */,
+				2B76E6B724342C7B0081FD2E /* Ingredient.swift */,
+				2B76E6B9243432150081FD2E /* Step.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9E6AD2562E06DA5EA70586F5 /* Frameworks */ = {
@@ -168,7 +196,6 @@
 				A7CFA05FC8A76C441A491ADE /* Pods-HowToTests.debug.xcconfig */,
 				E769FDC318A50C65E666D498 /* Pods-HowToTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -377,8 +404,11 @@
 			files = (
 				2B76E683243400440081FD2E /* ViewController.swift in Sources */,
 				2B76E67F243400440081FD2E /* AppDelegate.swift in Sources */,
+				2B76E6B824342C7C0081FD2E /* Ingredient.swift in Sources */,
+				2B76E6BA243432150081FD2E /* Step.swift in Sources */,
 				2B76E681243400440081FD2E /* SceneDelegate.swift in Sources */,
 				2B76E689243400440081FD2E /* HowTo.xcdatamodeld in Sources */,
+				2B76E6B624342C3F0081FD2E /* Tutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B76E699243400460081FD2E /* HowToTests.swift in Sources */,
+				2B76E6B324342A4B0081FD2E /* TutorialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
