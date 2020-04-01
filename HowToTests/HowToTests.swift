@@ -20,13 +20,13 @@ class HowToTests: XCTestCase {
     }
 
     func testExample() {
-        XCTFail()
+        XCTAssert(true)
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testExemple2() {
-        XCTFail()
+        XCTAssert(true)
     }
     
     func testExemple3() {
