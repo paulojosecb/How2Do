@@ -24,6 +24,14 @@ class HowToTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testExemple2() {
+        XCTFail()
+    }
+    
+    func testExemple3() {
+        XCTAssert(true)
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
