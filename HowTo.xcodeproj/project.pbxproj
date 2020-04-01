@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B76E67F243400440081FD2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E67E243400440081FD2E /* AppDelegate.swift */; };
 		2B76E681243400440081FD2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E680243400440081FD2E /* SceneDelegate.swift */; };
-		2B76E683243400440081FD2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E682243400440081FD2E /* ViewController.swift */; };
-		2B76E686243400440081FD2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B76E684243400440081FD2E /* Main.storyboard */; };
+		2B76E683243400440081FD2E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E682243400440081FD2E /* HomeViewController.swift */; };
 		2B76E689243400440081FD2E /* HowTo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B76E687243400440081FD2E /* HowTo.xcdatamodeld */; };
 		2B76E68B243400460081FD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B76E68A243400460081FD2E /* Assets.xcassets */; };
 		2B76E68E243400460081FD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B76E68C243400460081FD2E /* LaunchScreen.storyboard */; };
@@ -46,8 +45,7 @@
 		2B76E67B243400440081FD2E /* HowTo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowTo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B76E67E243400440081FD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B76E680243400440081FD2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B76E682243400440081FD2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B76E685243400440081FD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B76E682243400440081FD2E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2B76E688243400440081FD2E /* HowTo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HowTo.xcdatamodel; sourceTree = "<group>"; };
 		2B76E68A243400460081FD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B76E68D243400460081FD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,8 +127,7 @@
 				2B76E6B424342C2E0081FD2E /* Model */,
 				2B76E67E243400440081FD2E /* AppDelegate.swift */,
 				2B76E680243400440081FD2E /* SceneDelegate.swift */,
-				2B76E682243400440081FD2E /* ViewController.swift */,
-				2B76E684243400440081FD2E /* Main.storyboard */,
+				2B76E682243400440081FD2E /* HomeViewController.swift */,
 				2B76E68A243400460081FD2E /* Assets.xcassets */,
 				2B76E68C243400460081FD2E /* LaunchScreen.storyboard */,
 				2B76E68F243400460081FD2E /* Info.plist */,
@@ -308,7 +305,6 @@
 			files = (
 				2B76E68E243400460081FD2E /* LaunchScreen.storyboard in Resources */,
 				2B76E68B243400460081FD2E /* Assets.xcassets in Resources */,
-				2B76E686243400440081FD2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B76E683243400440081FD2E /* ViewController.swift in Sources */,
+				2B76E683243400440081FD2E /* HomeViewController.swift in Sources */,
 				2B76E67F243400440081FD2E /* AppDelegate.swift in Sources */,
 				2B76E6B824342C7C0081FD2E /* Ingredient.swift in Sources */,
 				2B76E6BA243432150081FD2E /* Step.swift in Sources */,
@@ -445,14 +441,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2B76E684243400440081FD2E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B76E685243400440081FD2E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B76E68C243400460081FD2E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
