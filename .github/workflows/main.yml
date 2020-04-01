@@ -11,6 +11,8 @@ jobs:
         matrix:
           destination: ['platform=iOS Simulator,OS=13.3,name=iPhone 11']
     steps:
+      - name: Checkout
+        uses: actions/checkout@master
       - name: Dependecies
         run:
           cd HowTo
